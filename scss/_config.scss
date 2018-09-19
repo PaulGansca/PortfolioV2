@@ -8,6 +8,10 @@ $background-opacity: 0.9;
   transition: all 0.5s ease-out;
 }
 
+@mixin menuAnimation {
+  transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
 @mixin background {
   @if $show-home-image {
     &#bg-image {
