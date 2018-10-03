@@ -7,14 +7,14 @@
 .card {
   position: relative;
   max-width: 350px;
-  height: 200px;
+  height: 250px;
   display: inline-block;
 
   .image {
     display: block;
-
+    border-color: $primary-color;
     max-width: 350px;
-    height: 200px;
+    height: 250px;
     border-radius: 12px;
     transition: all 0.35s ease-in-out;
   }
